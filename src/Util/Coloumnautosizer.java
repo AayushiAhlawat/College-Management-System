@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Util;
 
 import javax.swing.*;
@@ -22,7 +19,6 @@ public class Coloumnautosizer{
         JTableHeader tableHeader = table.getTableHeader();
  
         if(tableHeader == null) {
-            // can't auto size a table without a header
             return;
         }
  
@@ -59,10 +55,10 @@ public class Coloumnautosizer{
  
     private static void adjustMaximumWidths(JTable table, int[] minWidths, int[] maxWidths) {
         if(table.getWidth() > 0) {
-            // to prevent infinite loops in exceptional situations
+           
             int breaker = 0;
  
-            // keep stealing one pixel of the maximum width of the highest column until we can fit in the width of the table
+            
             while(sum(maxWidths) > table.getWidth() && breaker < 10000) {
                 int highestWidthIndex = findLargestIndex(maxWidths);
  
