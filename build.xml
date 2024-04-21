@@ -8,8 +8,8 @@
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
 <project name="CMS" default="default" basedir=".">
-    <description>Builds, tests, and runs the project cmsDufins.</description>
-    <import file="nbproject/build-impl.xml"/>
+    <description>Builds, tests, and runs the project CMS.</description>
+    <import file="dev_project/build-impl.xml"/>
     <!--
 
     There exist several targets which are by default empty and which can be 
