@@ -88,32 +88,7 @@ public class Database {
             stmt.execute("create table if not exists official_details (id int not null  primary key auto_increment, emp_id varchar(60) not null unique, room_number varchar(60), phone_number varchar(60), extension_number varchar(60), fax_number varchar(60), reporting_to varchar(60), branch varchar(60), office_address varchar(200) )");
             stmt.execute("create table if not exists emp_image (id int not null  primary key auto_increment, emp_id varchar(60) not null unique, image longblob )");
             stmt.execute("create table if not exists emp_pay_period (id int not null  primary key auto_increment, emp_id varchar(60) not null unique, period varchar(60), amount varchar(60) )");
-//            
-//            stmt.execute("create table if not exists att_status (id int not null primary key auto_increment, att_date date, intime varchar(60), outtime varchar(60), emp_id varchar(60) )");
-//            stmt.execute("create table if not exists passport_details (passport_number varchar(60) primary key, valid_upto date, identification_type varchar(60), marital_status varchar(60), nationality varchar(60), emp_id varchar(60) )");
-//            stmt.execute("create table if not exists prv_employer (id int not null primary key auto_increment, company_name varchar(60), period varchar(60), designation varchar(60), emp_id varchar(60) )");
-//            stmt.execute("create table if not exists emp_remarks (emp_id varchar(60) primary key, remarks varchar(500) )");
-//            stmt.execute("create table if not exists emp_shift_details (id int not null primary key auto_increment, assign_shift varchar(60), apply_date date, start_date date, end_date date, emp_id varchar(60) )");
-//            stmt.execute("create table if not exists emp_leave_details (id int not null primary key auto_increment, leave_type varchar(60), start_date date, end_date date, apply_date date, contact_number varchar(60), remarks varchar(500), emp_id varchar(60) )");
-//            stmt.execute("create table if not exists tour_details (_tour_id int not null primary key auto_increment, tour_type varchar(60), location varchar(60), start_date date, end_date date, emp_id varchar(60) )");
-//            stmt.execute("create table if not exists tr_pay_details (id int not null primary key auto_increment, amt_by_cmp varchar(60), amt_by_client varchar(60), salary_affect varchar(60), tour_id int, emp_id varchar(60) )");
-//            stmt.execute("create table if not exists training_details (tr_id int not null primary key auto_increment, course_name varchar(60), start_date date, end_date date, location varchar(60), amount varchar(60), pay_by_cmp varchar(5), salary_affect varchar(60), remarks varchar(500), emp_id varchar(60) )");
-//            stmt.execute("create table if not exists expenses_details (id int not null primary key auto_increment, exp_type varchar(60), amount varchar(60), remarks varchar(500), emp_id varchar(60) )");
-//            stmt.execute("create table if not exists expenses_tour_details (id int not null primary key auto_increment, expenses_type varchar(60), amount varchar(60), tour_id int, emp_id varchar(60) )");
-//            stmt.execute("create table if not exists emp_payment (id int not null primary key auto_increment, old_salary varchar(60), rate varchar(60), new_salary varchar(60), apply_date date, effective_date date, emp_id varchar(60) )");
-//            stmt.execute("create table if not exists payroll_details (payslip_no varchar(60) not null primary key, monthly_salary varchar(60), pay_period varchar(60), paid_days varchar(60), total_payment varchar(60), emp_id varchar(60) )");
-//            stmt.execute("create table if not exists payment_addition (id int not null primary key auto_increment, ot_charge varchar(60), shift_charge varchar(60), total_allowance varchar(60), tour_amount varchar(60), training_amount varchar(60), misc_payment varchar(60), emp_id varchar(60) )");
-//            stmt.execute("create table if not exists payment_deduction (id int not null primary key auto_increment, leave_days varchar(60), leave_amount varchar(60), pf_amount varchar(60), esi_amount varchar(60), tax_amount varchar(60), mess_charge varchar(60), conveyance_charge varchar(60), lc_ec_amount varchar(60), misc_deduction varchar(60), email_id varchar(60) )");
-//
-//            stmt.execute("create table if not exists emp_shift (shift_id int not null primary key auto_increment, shifting_time varchar(60), start_time date, end_time date, shifting_charge varchar(60), emp_id varchar(60) )");
-//            stmt.execute("create table if not exists emp_holiday (id int not null primary key auto_increment, start_date date, end_date date, description varchar(200), sun_holiday varchar(1), mon_holiday varchar(1), tue_holiday varchar(1), wed_holiday varchar(1), thu_holiday varchar(1), fri_holiday varchar(1), sat_holiday varchar(1), emp_id varchar(60) )");
-//            stmt.execute("create table if not exists emp_leave (leave_id int not null primary key auto_increment, month varchar(60), cl varchar(60), pl varchar(60), sl varchar(60), el varchar(60), other varchar(60), emp_id varchar(60) )");
-//            stmt.execute("create table if not exists emp_overtime_Details (id int not null primary key auto_increment, max_hrs varchar(45), wages_per_hr varchar(60), emp_id varchar(60) )");
-//            stmt.execute("create table if not exists facility_Setting (parameter_type varchar(60) primary key, rate varchar(60), emp_id varchar(60) )");
-//            stmt.execute("create table if not exists allowance_Info (attribute varchar(60) primary key, rate varchar(60), emp_id varchar(60) )");
-//            stmt.execute("create table if not exists deduction_Details (id int not null primary key auto_increment, time_hrs varchar(20), time_min varchar(20), deduction_type varchar(60), emp_id varchar(60) )");
-//            stmt.execute("create table if not exists payroll_Frequencies (id int not null primary key auto_increment, pay_period varchar(10), period_time_1 varchar(45), period_time_2 varchar(45), period_time_3 varchar(45), period_time_4 varchar(45), emp_id varchar(60) )");
-//
+
 
             //Inserting values
             stmt.executeUpdate("insert into  login values ('sam','sam','Admin', 'N')");
