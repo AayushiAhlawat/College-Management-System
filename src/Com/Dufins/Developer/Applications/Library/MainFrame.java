@@ -1,13 +1,7 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Com.Dufins.Developer.Applications.Library;
 
-/**
- *
- * @author NITISH SRIVASTAVA
- */
+
 public class MainFrame extends javax.swing.JInternalFrame {
 
     /**
@@ -33,7 +27,5 @@ public class MainFrame extends javax.swing.JInternalFrame {
         getContentPane().setLayout(new javax.swing.BoxLayout(getContentPane(), javax.swing.BoxLayout.LINE_AXIS));
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    // End of variables declaration//GEN-END:variables
+    }
 }
