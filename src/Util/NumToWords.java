@@ -2,16 +2,6 @@ package Util;
 
 import java.util.Scanner;
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
-/**
- *
- * @author Adept
- */
 public class NumToWords {
      String string;
         String st1[] = { " ", "one", "two", "three", "four", "five", "six", "seven",
@@ -123,21 +113,7 @@ public class NumToWords {
                 string += st;
                 
         }
-/*
-      public static void main(String[] args) {
-                NumToWords w = new NumToWords();
-                Scanner input = new Scanner(System.in);
-                String decider = "y";
-                while(decider.equals("y"))
-                {
-                    System.out.print("Enter Number: ");
-                    int num = input.nextInt();
-                    String inwords = w.convert(num);
-                    System.out.println(inwords);
-                    System.out.print("Do you want to continue: ");
-                    decider = input.next();
-                }
-                 
+
                  
                 
         }*/
