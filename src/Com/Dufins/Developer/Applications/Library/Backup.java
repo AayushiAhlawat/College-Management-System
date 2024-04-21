@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Com.Dufins.Developer.Applications.Library;
 
 import java.io.File;
@@ -9,10 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import javax.swing.JFileChooser;
 
-/**
- *
- * @author NITISH SRIVASTAVA
- */
+
 public class Backup extends javax.swing.JPanel {
 
     /**
