@@ -23,7 +23,7 @@ The College Management System (CMS) is a Java-based desktop application designed
   - rs2xml.jar
 
 ## Installation and Setup 🛠️
-1. Clone or download the project repository from [GitHub link]([<repository_link>](https://github.com/AayushiAhlawat/College-Management-System.git)).
+1. Clone or download the project repository from [GitHub link] (https://github.com/AayushiAhlawat/College-Management-System.git).
 2. Install JDK and JRE 8 on your system.
 3. Install and configure MySQL database server.
 4. Import the project into your preferred Java IDE (e.g., IntelliJ IDEA, Eclipse).
