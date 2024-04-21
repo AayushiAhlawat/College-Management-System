@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Com.Dufins.Developer.Applications.Library;
 
 import Util.Util;
@@ -16,10 +13,6 @@ import java.util.Date;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author NITISH SRIVASTAVA
- */
 public class ReturnBook extends javax.swing.JPanel {
 
     /**

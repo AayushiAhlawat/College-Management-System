@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Com.Dufins.Developer.Applications.Library;
 
 import Util.Util;
@@ -24,10 +21,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author NITISH SRIVASTAVA
- */
+
 public class SearchMember extends javax.swing.JPanel implements Printable {
 
     /**

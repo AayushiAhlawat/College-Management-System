@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Com.Dufins.Developer.STManagement.Forms;
 
 import Util.Util;
@@ -24,15 +21,10 @@ import javax.swing.JOptionPane;
 import javax.swing.JScrollPane;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
-/**
- *
- * @author Nitish Srivastava
- */
+
 public class StudentInformationServices extends javax.swing.JPanel {
 
-    /**
-     * Creates new form StudentInformationServices
-     */
+    
     Connection con = null;
     PreparedStatement psmnt = null;
     Statement stmt = null;

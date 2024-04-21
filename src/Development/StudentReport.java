@@ -30,10 +30,6 @@ import javax.imageio.ImageIO;
 import javax.swing.JOptionPane;
 import javax.swing.JTable;
 
-/**
- *
- * @author NITISH SRIVASTAVA
- */
 public class StudentReport extends javax.swing.JInternalFrame implements Printable {
 
     /**
