@@ -12,51 +12,8 @@ import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author suman
- */
+
 public class Util {
-    /*   private static String driverclass;
-     private static String url;
-     private static String username;
-     private static String password;
-     private static Stri
-     * ng database;
-     static
-     {
-     FileInputStream fin = null;
-     try
-     {
-     fin = new FileInputStream("db.properties");
-     Properties pr = new Properties();
-     pr.load(fin);
-     driverclass = pr.getProperty("driverclass");
-     url = pr.getProperty("url");
-     username = pr.getProperty("username");
-     password = pr.getProperty("password");
-     database = pr.getProperty("database");
-     }
-     catch (IOException ex)
-     {
-     ex.printStackTrace();
-     }
-     finally
-     {
-     try
-     {
-     if(fin != null)
-     {
-     fin.close();
-     fin = null;
-     }
-     }
-     catch(IOException ex)
-     {
-     ex.printStackTrace();
-     }
-     }
-     }*/
 
     int connect = 0;
 
