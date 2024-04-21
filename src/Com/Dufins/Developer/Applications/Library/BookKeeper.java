@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Com.Dufins.Developer.Applications.Library;
 
 import Com.Dufins.Developer.LoginPkg.Login;
@@ -19,10 +16,7 @@ import javax.swing.ImageIcon;
 import javax.swing.tree.DefaultTreeCellRenderer;
 import javax.swing.tree.TreePath;
 
-/**
- *
- * @author Owner
- */
+
 public class BookKeeper extends javax.swing.JFrame {
 
     /**
